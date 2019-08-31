@@ -1,0 +1,29 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-white;
+}
+
+.heading-logo {
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  color: $color-black;
+
+  &--bg-white {
+    background: $color-white;
+    display: inline-block;
+    line-height: 25px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.heading-sub {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  letter-spacing: 0.4rem;
+}

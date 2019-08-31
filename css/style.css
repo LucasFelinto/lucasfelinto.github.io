@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.grid-container {
+  background: #111;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.heading-logo {
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  color: #000;
+}
+.heading-logo--bg-white {
+  background: #fff;
+  display: inline-block;
+  line-height: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.heading-sub {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: lighter;
+  letter-spacing: 0.4rem;
+}
+
+.nav {
+  width: 3.5rem;
+  height: 0.5rem;
+  background: #fff;
+  border-radius: 3px;
+  margin-top: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.nav::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 2rem;
+  height: 0.5rem;
+  display: block;
+  margin-top: -1rem;
+  border-radius: 3px;
+  margin-left: -0.1rem;
+  background: #fff;
+}
+.nav::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 4.5rem;
+  height: 0.5rem;
+  display: block;
+  margin-top: 1rem;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.grid-container {
+  padding-top: 3.2rem;
+  padding-left: 4.6rem;
+  padding-right: 4.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.nav {
+  justify-self: end;
+}
+
+.main {
+  grid-column: 1/span 2;
+  grid-row-start: 3;
+}
+
+/*# sourceMappingURL=style.css.map */

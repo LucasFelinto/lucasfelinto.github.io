@@ -1,0 +1,13 @@
+{
+  "name": "lucasfelinto",
+  "version": "1.0.0",
+  "description": "My web site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.22.10"
+  }
+}
